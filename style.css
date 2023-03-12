@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+p, h1, a, td, th {
+    font-family: 'Poppins', sans-serif;
+}
+
+#tablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 720px;
+    width: 1280px;
+    background-color: #181818;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+/* Left side navbar content*/
+#navbar {
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#hospitalLogo {
+    height: 100px;
+    width: auto;
+}
+
+.navItemContainer {
+    height: 100px;
+}
+
+.navItem {
+    color: white;
+}
+
+.navItem:hover {
+    cursor: pointer;
+    transition: .3s;
+    transform: scale(1.1);
+    color: rgb(116, 116, 116);
+}
+
+

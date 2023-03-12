@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMS Tablet</title>
+
+    <!-- You MUST include jQuery 3+ before Fomantic -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.2/dist/semantic.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div id="tablet">
+    <div id="container">
+        <div id="navbar">
+
+            <img id="hospitalLogo" src="img/hospitallogo.png" alt="logo" />
+
+            <div>
+
+            <div class="navItemContainer">
+                <i class="home icon big navItem"></i>
+            </div>
+
+            <div class="navItemContainer">
+                <i class="archive icon big navItem"></i>
+            </div>
+
+            <div class="navItemContainer">
+                <i class="user md icon big navItem"></i>
+            </div>
+        </div>
+
+        <div></div>
+
+        </div>
+        <div id="emscontent">
+            <div id="header">
+                <h1 id="headerTxt">Region Midtjylland</h1>
+            </div>
+
+            <div id="headerSection">
+
+            <!-- Personal container-->
+            <div id="personalContainer">
+                <div id="nameContainer">
+                    <p>Peter Nielsen:</p>
+                    <h1>Læge-Assistent</h1>
+                </div>
+                <div id="statsContainer">
+                    <div class="statsdiv" id="caseCountContainer">
+                        <p class="statscountTxt">Du har løst</p>
+                        <div id="caseSolvedContainer">
+                            <p id="caseCount">38</p>
+                            <i class="briefcase medical icon big red"></i>
+                        </div>
+                        
+                        <p class="statscountTxt">Cases!</p>
+                    </div>
+
+                    <div class="statsdiv" id="dateContainer">
+                        <i class="calendar alternate icon huge primary"></i>
+                        <h1>10/03/2023</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- Personal container-->
+
+            <!-- Seneste journaler container-->
+            <div id="latestJournalContainer">
+                <div class="latestJournalHeader">
+                    <p>Seneste Journaler</p>
+                    <a href="#">Se alle<i class="angle right icon"></i></a>
+                </div>
+
+                <div id="journalTable">
+
+                <table class="ui very basic celled table">
+                    <thead>
+                      <tr><th>Sagsnummer</th>
+                      <th>Patient</th>
+                      <th>Dato</th>
+                      <th>Læge</th>
+                      <th>Detaljer</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                      <tr>
+                        <td>#532</td>
+                        <td>Lars Petersen</td>
+                        <td>13/03/2023</td>
+                        <td>Peter Nielsen</td>
+                        <td>
+                            <button class="ui labeled icon button">
+                            <i class="info icon"></i>
+                            Detaljer
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>#532</td>
+                        <td>Lars Petersen</td>
+                        <td>13/03/2023</td>
+                        <td>Peter Nielsen</td>
+                        <td>
+                            <button class="ui labeled icon button">
+                            <i class="info icon"></i>
+                            Detaljer
+                          </button>
+                        </td>                      
+                    </tr>
+                      <tr>
+                        <td>#532</td>
+                        <td>Lars Petersen</td>
+                        <td>13/03/2023</td>
+                        <td>Peter Nielsen</td>
+                        <td>
+                            <button class="ui labeled icon button">
+                            <i class="info icon"></i>
+                            Detaljer
+                          </button>
+                        </td>                     
+                     </tr>
+                     <tr>
+                        <td>#532</td>
+                        <td>Lars Petersen</td>
+                        <td>13/03/2023</td>
+                        <td>Peter Nielsen</td>
+                        <td>
+                            <button class="ui labeled icon button">
+                            <i class="info icon"></i>
+                            Detaljer
+                          </button>
+                        </td>                     
+                     </tr>
+                    </tbody>
+                  </table>                    
+                </div>
+
+            </div>
+            <!-- Seneste journaler container-->
+
+        </div>
+
+        
+        <div id="footerSection">
+            <div id="ownCasesContainer">
+                <div class="latestJournalHeader">
+                    <p>Dine Seneste Journaler</p>
+                    <a href="#">Se alle<i class="angle right icon"></i></a>
+                </div>
+
+                <div id="ownlatestJournal">
+
+                    <table class="ui very basic celled table">
+                        <thead>
+                          <tr><th>SagNr</th>
+                          <th>Patient</th>
+                          <th>Dato</th>
+                          <th>Info</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                          <tr>
+                            <td>#532</td>
+                            <td>Lars Petersen</td>
+                            <td>13/03/2023</td>
+                            <td>
+                                <button class="circular ui icon button">
+                                    <i class="info icon"></i>
+                                  </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>#532</td>
+                            <td>Lars Petersen</td>
+                            <td>13/03/2023</td>
+                            <td>
+                                <button class="circular ui icon button">
+                                    <i class="info icon"></i>
+                                  </button>
+                            </td>                      
+                        </tr>
+                          <tr>
+                            <td>#532</td>
+                            <td>Lars Petersen</td>
+                            <td>13/03/2023</td>
+                            <td>
+                                <button class="circular ui icon button">
+                                    <i class="info icon"></i>
+                                  </button>
+                            </td>                     
+                         </tr>
+                         <tr>
+                            <td>#532</td>
+                            <td>Lars Petersen</td>
+                            <td>13/03/2023</td>
+                            <td>
+                                <button class="circular ui icon button">
+                                    <i class="info icon"></i>
+                                  </button>
+                            </td>                     
+                         </tr>
+                         <tr>
+                            <td>#532</td>
+                            <td>Lars Petersen</td>
+                            <td>13/03/2023</td>
+                            <td>
+                                <button class="circular ui icon button">
+                                    <i class="info icon"></i>
+                                  </button>
+                            </td>                     
+                         </tr>
+                        </tbody>
+                      </table>                    
+                    </div>
+                </div>
+
+
+                
+                <div id="chatContainer">
+                    <div id="chatHeader">
+                        <h1>Opslags Tavle</h1>
+                    </div>
+
+                    <div id="chat">
+                        <div class="chatCard">
+                            <div class="chatCardHeader">
+                                <i class="user md icon large"></i>
+                                <h1>Peter Nielsen</h1>
+                            </div>
+                            <p>11/03/2023 14:43</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo porro optio vero sit unde culpa aperiam veritatis animi? Optio ducimus exercitationem voluptate sequi sunt beatae voluptatibus dolorem repellendus esse quisquam.</p>
+                            
+                        </div>
+
+                        <div class="chatCard">
+                            <div class="chatCardHeader">
+                                <i class="user md icon large"></i>
+                                <h1>Peter Nielsen</h1>
+                            </div>
+                            <p>11/03/2023 14:43</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo porro optio vero sit unde culpa aperiam veritatis animi? Optio ducimus exercitationem voluptate sequi sunt beatae voluptatibus dolorem repellendus esse quisquam.</p>
+                            
+                        </div>
+
+                        <div class="chatCard">
+                            <div class="chatCardHeader">
+                                <i class="user md icon large"></i>
+                                <h1>Peter Nielsen</h1>
+                            </div>
+                            <p>11/03/2023 14:43</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo porro optio vero sit unde culpa aperiam veritatis animi? Optio ducimus exercitationem voluptate sequi sunt beatae voluptatibus dolorem repellendus esse quisquam.</p>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
