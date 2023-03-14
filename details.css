@@ -1,0 +1,96 @@
+#emscontent {
+    background-image: linear-gradient(rgba(246, 247, 249, 0.6), rgba(246, 247, 249, 0.1)), url('img/body.png');
+    background-color: white;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#leftside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+
+#rightside {
+    display: flex;
+    width: 60%;
+    height: 100%;
+}
+
+#headerSection {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#caseCountContainer h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+#caseCountContainer p{
+    margin: 0;
+}
+
+
+#caseBtnContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.caseBtn {
+    height: 50px;
+    width: 50px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 28px;
+}
+
+.caseBtn:hover {
+    cursor: pointer;
+    transition: .3s;
+    transform: scale(1.05);
+}
+
+
+#footerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#informationBox {
+    display: flex;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.infoBoxHeader {
+    display: flex;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFF2F1;
+}
+
+.icon img{
+    height: 20px;
+    width: auto;
+}
+
